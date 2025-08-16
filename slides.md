@@ -18,6 +18,7 @@ Contact: 24f2005847@ds.study.iitm.ac.in
 
 # Introduction  
 
+<!-- _class: lead -->
 Welcome to our product documentation presentation.  
 This slide has a **background image**.
 
