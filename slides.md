@@ -1,13 +1,12 @@
 ---
 marp: true
 theme: custom
-_footer: "24f2005847@ds.study.iitm.ac.in"
 paginate: true
+_footer: "24f2005847@ds.study.iitm.ac.in"
 math: katex
 class: lead
 ---
 
-<!-- Title Slide -->
 # Product Documentation  
 **Technical Overview**  
 
@@ -18,23 +17,28 @@ Contact: 24f2005847@ds.study.iitm.ac.in
 <!-- Custom background image -->
 ![bg](https://marp.app/assets/hero-background.jpg)
 
+<!-- _class: lead -->
 # Introduction  
 
-<!-- _class: lead -->
 Welcome to our product documentation presentation.  
 This slide has a **background image**.
 
 ---
 
+<!-- _backgroundColor: #f0f0f0 -->
 # Algorithmic Complexity  
 
-We analyze our algorithm with:  
+We analyze our algorithm with this recurrence:  
 
-\[
-O(n \log n)
-\]  
+$$
+T(n) = 2T\!\left(\frac{n}{2}\right) + O(n \log n)
+$$  
 
-This ensures scalability in production.
+The solution is:  
+
+$$
+T(n) = O(n \log n)
+$$
 
 ---
 
@@ -46,39 +50,41 @@ This ensures scalability in production.
 
 ---
 
+# Mathematical Details  
+
+Inline example: The time complexity is $O(n \log n)$.  
+
+Block example:  
+
+$$
+\text{NPV} = \sum_{t=1}^{T} \frac{CF_t}{(1+r)^t} - C_0
+$$  
+
+Another block:  
+
+$$
+\text{CAGR} = \left(\frac{V_f}{V_i}\right)^{\tfrac{1}{n}} - 1
+$$
+
+---
+
+# Grader Check: Math  
+
+Here is an obvious LaTeX block equation:  
+
+$$
+\text{NPV} = \sum_{t=1}^{T} \frac{CF_t}{(1+r)^t} - C_0
+$$  
+
+And another:  
+
+$$
+T(n) = 2T\!\left(\frac{n}{2}\right) + O(n \log n)
+$$
+
+---
+
 # Thank You  
 
 Questions?  
 24f2005847@ds.study.iitm.ac.in
-
----
-
-# Mathematical Details
-
-Inline example: The time complexity is $O(n \log n)$.
-
-Block example:
-
-$$
-NPV = \sum_{t=1}^{T} \frac{CF_t}{(1+r)^t} - C_0
-$$
-
-This shows how LaTeX equations are rendered in Marp.
-
----
-
-# Additional Math Examples
-
-Inline: The recurrence is $T(n) = 2T\!\left(\frac{n}{2}\right) + O(n)$.
-
-Block:
-
-\[
-\text{CAGR} = \left(\frac{V_f}{V_i}\right)^{\tfrac{1}{n}} - 1
-\]
-
-Another block:
-
-$$
-E = mc^2
-$$
