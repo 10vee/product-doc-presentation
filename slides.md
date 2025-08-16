@@ -63,3 +63,21 @@ NPV = \sum_{t=1}^{T} \frac{CF_t}{(1+r)^t} - C_0
 $$
 
 This shows how LaTeX equations are rendered in Marp.
+
+---
+
+# Additional Math Examples
+
+Inline: The recurrence is $T(n) = 2T\!\left(\frac{n}{2}\right) + O(n)$.
+
+Block:
+
+\[
+\text{CAGR} = \left(\frac{V_f}{V_i}\right)^{\tfrac{1}{n}} - 1
+\]
+
+Another block:
+
+$$
+E = mc^2
+$$
