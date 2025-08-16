@@ -3,6 +3,7 @@ marp: true
 theme: custom
 _footer: "24f2005847@ds.study.iitm.ac.in"
 paginate: true
+math: katex
 class: lead
 ---
 
